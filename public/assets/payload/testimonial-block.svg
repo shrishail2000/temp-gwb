@@ -1,0 +1,35 @@
+<svg width="231" height="151" viewBox="0 0 231 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="231" height="151" fill="#D9D9D9"/>
+<line x1="73" y1="29.5" x2="159" y2="29.5" stroke="white" stroke-width="5"/>
+<rect x="102" y="120" width="10" height="10" rx="5" fill="white"/>
+<path d="M107.431 123.098L105.529 125L107.431 126.902L107.902 126.431L106.471 125L107.902 123.569L107.431 123.098Z" fill="#D9D9D9"/>
+<rect x="120" y="120" width="10" height="10" rx="5" fill="white"/>
+<path d="M124.471 126.805L126.374 124.902L124.471 123L124 123.471L125.431 124.902L124 126.333L124.471 126.805Z" fill="#D9D9D9"/>
+<rect width="60" height="60" transform="translate(12 46)" fill="white"/>
+<path d="M15 54V52.9474C15 52.6277 15.065 52.2885 15.1951 51.9298C15.3296 51.5673 15.5224 51.2183 15.7735 50.883C16.0291 50.5439 16.3363 50.2495 16.6951 50L17.5561 50.6082C17.2735 50.9591 17.0269 51.3255 16.8161 51.7076C16.6099 52.0858 16.5067 52.4912 16.5067 52.924V54H15ZM18.4439 54V52.9474C18.4439 52.6277 18.509 52.2885 18.639 51.9298C18.7735 51.5673 18.9664 51.2183 19.2175 50.883C19.4731 50.5439 19.7803 50.2495 20.139 50L21 50.6082C20.7175 50.9591 20.4709 51.3255 20.2601 51.7076C20.0538 52.0858 19.9507 52.4912 19.9507 52.924V54H18.4439Z" fill="#D9D9D9"/>
+<rect width="55" height="2" transform="translate(15 62)" fill="#D9D9D9"/>
+<rect width="55" height="2" transform="translate(15 66)" fill="#D9D9D9"/>
+<rect width="55" height="2" transform="translate(15 70)" fill="#D9D9D9"/>
+<rect width="21" height="2" transform="translate(15 74)" fill="#D9D9D9"/>
+<rect width="21" height="2" transform="translate(28 93)" fill="#D9D9D9"/>
+<rect width="42" height="2" transform="translate(28 97)" fill="#D9D9D9"/>
+<rect x="15" y="91" width="10" height="10" rx="5" fill="#D9D9D9"/>
+<rect width="60" height="60" transform="translate(86 46)" fill="white"/>
+<path d="M89 54V52.9474C89 52.6277 89.065 52.2885 89.1951 51.9298C89.3296 51.5673 89.5224 51.2183 89.7735 50.883C90.0291 50.5439 90.3363 50.2495 90.6951 50L91.5561 50.6082C91.2735 50.9591 91.0269 51.3255 90.8161 51.7076C90.6099 52.0858 90.5067 52.4912 90.5067 52.924V54H89ZM92.4439 54V52.9474C92.4439 52.6277 92.509 52.2885 92.639 51.9298C92.7735 51.5673 92.9664 51.2183 93.2175 50.883C93.4731 50.5439 93.7803 50.2495 94.139 50L95 50.6082C94.7175 50.9591 94.4709 51.3255 94.2601 51.7076C94.0538 52.0858 93.9507 52.4912 93.9507 52.924V54H92.4439Z" fill="#D9D9D9"/>
+<rect width="55" height="2" transform="translate(89 62)" fill="#D9D9D9"/>
+<rect width="55" height="2" transform="translate(89 66)" fill="#D9D9D9"/>
+<rect width="55" height="2" transform="translate(89 70)" fill="#D9D9D9"/>
+<rect width="21" height="2" transform="translate(89 74)" fill="#D9D9D9"/>
+<rect width="21" height="2" transform="translate(102 93)" fill="#D9D9D9"/>
+<rect width="42" height="2" transform="translate(102 97)" fill="#D9D9D9"/>
+<rect x="89" y="91" width="10" height="10" rx="5" fill="#D9D9D9"/>
+<rect width="60" height="60" transform="translate(160 46)" fill="white"/>
+<path d="M163 54V52.9474C163 52.6277 163.065 52.2885 163.195 51.9298C163.33 51.5673 163.522 51.2183 163.774 50.883C164.029 50.5439 164.336 50.2495 164.695 50L165.556 50.6082C165.274 50.9591 165.027 51.3255 164.816 51.7076C164.61 52.0858 164.507 52.4912 164.507 52.924V54H163ZM166.444 54V52.9474C166.444 52.6277 166.509 52.2885 166.639 51.9298C166.774 51.5673 166.966 51.2183 167.217 50.883C167.473 50.5439 167.78 50.2495 168.139 50L169 50.6082C168.717 50.9591 168.471 51.3255 168.26 51.7076C168.054 52.0858 167.951 52.4912 167.951 52.924V54H166.444Z" fill="#D9D9D9"/>
+<rect width="55" height="2" transform="translate(163 62)" fill="#D9D9D9"/>
+<rect width="55" height="2" transform="translate(163 66)" fill="#D9D9D9"/>
+<rect width="55" height="2" transform="translate(163 70)" fill="#D9D9D9"/>
+<rect width="21" height="2" transform="translate(163 74)" fill="#D9D9D9"/>
+<rect width="21" height="2" transform="translate(176 93)" fill="#D9D9D9"/>
+<rect width="42" height="2" transform="translate(176 97)" fill="#D9D9D9"/>
+<rect x="163" y="91" width="10" height="10" rx="5" fill="#D9D9D9"/>
+</svg>

@@ -1,0 +1,277 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: unset;
+    font-weight: unset;
+  }
+
+  :root {
+    --background: #ffffff;
+    --foreground: #1a1a1a;
+
+    --card: #e4e7ec;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: #ffffff;
+    --popover-foreground: #3a3a3a;
+
+    --primary: #056cf0;
+    --primary-container: #056cf0;
+    --primary-fixed: #056cf0;
+    --primary-fixed-dim: #2a82f2;
+    --primary-foreground: #f6f6f9;
+    --on-primary: #ffffff;
+    --on-primary-container: #ffffff;
+    --on-primary-fixed: #ffffff;
+    --inverse-on-surface: #f6f6f9;
+
+    --secondary: #e6f0fd;
+    --secondary-container: #f5f7ff;
+    --secondary-fixed: #f5f7ff;
+    --secondary-fixed-dim: #c0dafb;
+    --secondary-foreground: #1a1a1a;
+    --on-secondary: #1a1a1a;
+    --on-secondary-container: #045ccc;
+    --on-secondary-fixed: #022b60;
+
+    --muted: #d1e7f0;
+    --muted-foreground: #666666;
+
+    --surface: #f6f6f9;
+    --surface-dim: #e5e5e5;
+    --surface-bright: #ffffff;
+    --surface-foreground: #1a1a1a;
+    --surface-container: #ffffff;
+    --on-surface: #1a1a1a;
+    --on-surface-variant: #666666;
+
+    --accent: #d1e7f0;
+    --accent-foreground: #3a3a3a;
+
+    --destructive: #ffcc00;
+    --destructive-foreground: #d1e7f0;
+
+    --shadow-l1: 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 0px 2px 0px rgba(0, 0, 0, 0.08);
+    --shadow-l2: 0px 4px 8px 0px rgba(0, 0, 0, 0.1), 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
+    --shadow-l3: 0px 8px 16px 0px rgba(0, 0, 0, 0.1), 0px 0px 6px 0px rgba(0, 0, 0, 0.08);
+    --shadow-l4: 0px 10px 20px 0px rgba(0, 0, 0, 0.1), 0px 0px 8px 0px rgba(0, 0, 0, 0.08);
+    --shadow-l5: 0px 12px 24px 0px rgba(0, 0, 0, 0.1), 0px 0px 10px 0px rgba(0, 0, 0, 0.08);
+    --shadow-l6: 0px 16px 32px 0px rgba(0, 0, 0, 0.1), 0px 0px 12px 0px rgba(0, 0, 0, 0.08);
+
+    --border: #e6e6e6;
+    --outline: #999999;
+    --input: #d9e6f2;
+    --ring: #056cf0;
+
+    --radius: 0.2rem;
+
+    --success: #009933;
+    --warning: #f2e6d5;
+    --error: #e42533;
+  }
+
+  [data-theme='dark'] {
+    --background: 0 0% 0%;
+    --foreground: 210 40% 98%;
+
+    --card: 0 0% 4%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: #2a82f2;
+    --primary-container: #2a82f2;
+    --primary-fixed: #056cf0;
+    --primary-fixed-dim: #2a82f2;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --on-primary: #ffffff;
+    --on-primary-container: #ffffff;
+
+    --secondary: #022b60;
+    --secondary-container: #011b3c;
+    --secondary-fixed: #f5f7ff;
+    --secondary-fixed-dim: #c0dafb;
+    --secondary-foreground: 210 40% 98%;
+    --on-secondary: #ffffff;
+    --on-secondary-container: #ffffff;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --surface: #0d0d0d;
+    --surface-dim: #262626;
+    --surface-bright: #1a1a1a;
+    --surface-container: #ffffff;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: #e6e6e6;
+    --input: #d9e6f2;
+    --ring: #3a3a3a;
+
+    --radius: 0.2rem;
+
+    --success: #009933;
+    --warning: #f2e6d5;
+    --error: #e42533;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-on-surface min-h-[100vh] flex flex-col;
+  }
+}
+
+/* html {
+  opacity: 0;
+} */
+
+html[data-theme='dark'],
+html[data-theme='light'] {
+  opacity: initial;
+}
+
+.pipe-separator::after {
+  content: '';
+  display: inline-block;
+  margin-left: 8px;
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background-color: var(--background);
+}
+
+.marquee-images-track {
+  animation: marquee 45s linear infinite;
+}
+
+.review-card-shadow {
+  box-shadow:
+    0px 10px 20px 0px rgba(0, 0, 0, 0.1),
+    0px 0px 8px 0px rgba(0, 0, 0, 0.08);
+}
+
+.slider-btn-shadow {
+  box-shadow:
+    0px 8px 16px 0px rgba(0, 0, 0, 0.1),
+    0px 0px 6px 0px rgba(0, 0, 0, 0.08);
+}
+
+.review-card-author-container {
+  background: linear-gradient(100deg, rgba(18, 26, 106, 0.2) 0%, rgba(75, 149, 236, 0.04) 100%);
+  box-shadow: 0px -4px 52px 0px rgba(212, 158, 255, 0.12) inset;
+  backdrop-filter: blur(6px);
+}
+
+.testimonials-section .slick-track {
+  @apply flex pt-6 pb-6 justify-start;
+}
+
+.testimonials-section .slick-slide {
+  @apply my-auto mx-[1rem] md:mx-[30px];
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.letter-spacing-h1 {
+  letter-spacing: -2px;
+}
+
+.letter-spacing-h2 {
+  letter-spacing: -1px;
+}
+
+.letter-spacing-h3 {
+  letter-spacing: -0.5px;
+}
+
+.late-ease-transition {
+  transition: opacity 0.5s cubic-bezier(0.5, 0.15, 0, 1);
+}
+
+.accordion-content-grow {
+  transition: all 0.5s cubic-bezier(0.5, 0.15, 0, 1);
+}
+
+h1 {
+  @apply font-semibold text-[2rem] md:text-[4rem] leading-10 md:leading-[70px] letter-spacing-h1;
+}
+
+h2 {
+  @apply font-semibold text-2xl md:text-[2.75rem] leading-8 md:leading-[60px] letter-spacing-h2;
+}
+
+.section-subtitle {
+  @apply text-center text-base md:text-lg;
+}
+
+.section-cta-pitch {
+  @apply text-base md:text-lg text-center;
+}
+
+.custom-underline {
+  position: relative;
+}
+
+.custom-underline::after {
+  content: '';
+  bottom: -0.125rem;
+  height: 2px;
+  left: 0;
+  background-color: currentColor;
+  position: absolute;
+  transform-origin: bottom right;
+  transition-duration: 0.3s;
+  transform: scale(0, 1);
+  transition-property: transform;
+  transition-property:
+    transform,
+    -webkit-transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
+}
+
+.custom-underline:hover::after {
+  --tw-scale-x: 1;
+  transform-origin: bottom left;
+  transform: scale(1, 1);
+}
+
+.custom-background-gradient {
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 640px) {
+  .custom-background-gradient {
+    transform: translateY(-50%) scaleX(2) scaleY(1.2);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .custom-background-gradient {
+    transform: translateY(-50%) scaleX(3.5) scaleY(2.7);
+  }
+}
